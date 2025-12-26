@@ -70,11 +70,11 @@ const interviewTypes: {
 ];
 
 const companies = [
-  {name: 'Google', icon: 'google'},
-  {name: 'Microsoft', icon: 'microsoft'},
-  {name: 'Amazon', icon: 'amazon'},
-  {name: 'Meta', icon: 'facebook'},
-  {name: 'Apple', icon: 'apple'},
+  {name: 'Google', icon: 'alpha-g-circle'},
+  {name: 'Microsoft', icon: 'microsoft-windows'},
+  {name: 'Amazon', icon: 'alpha-a-circle'},
+  {name: 'Meta', icon: 'alpha-m-circle'},
+  {name: 'Apple', icon: 'apple-ios'},
   {name: 'TCS', icon: 'office-building'},
   {name: 'Infosys', icon: 'office-building'},
   {name: 'Wipro', icon: 'office-building'},
@@ -82,8 +82,8 @@ const companies = [
   {name: 'Deloitte', icon: 'office-building'},
   {name: 'Goldman Sachs', icon: 'bank'},
   {name: 'JP Morgan', icon: 'bank'},
-  {name: 'Flipkart', icon: 'shopping'},
-  {name: 'Swiggy', icon: 'food'},
+  {name: 'Flipkart', icon: 'cart'},
+  {name: 'Swiggy', icon: 'food-outline'},
   {name: 'Other', icon: 'office-building-outline'},
 ];
 
