@@ -51,7 +51,7 @@ const mockInterviewHistory = [
   {
     id: '1',
     company: 'Google',
-    companyIcon: 'google',
+    companyIcon: 'alpha-g-circle',
     type: 'Technical',
     date: 'Today, 2:30 PM',
     score: 85,
@@ -71,7 +71,7 @@ const mockInterviewHistory = [
   {
     id: '3',
     company: 'Microsoft',
-    companyIcon: 'microsoft',
+    companyIcon: 'microsoft-windows',
     type: 'Behavioral',
     date: '2 days ago',
     score: 88,
@@ -91,7 +91,7 @@ const mockInterviewHistory = [
   {
     id: '5',
     company: 'Amazon',
-    companyIcon: 'amazon',
+    companyIcon: 'alpha-a-circle',
     type: 'Technical',
     date: 'Last week',
     score: 79,
