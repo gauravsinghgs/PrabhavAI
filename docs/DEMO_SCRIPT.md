@@ -15,6 +15,7 @@
 5. [Key Talking Points](#key-talking-points)
 6. [Fallback Plans](#fallback-plans)
 7. [Q&A Preparation](#qa-preparation)
+8. [Resetting the App / Logout](#resetting-the-app--logout)
 
 ---
 
@@ -582,6 +583,37 @@ Keep a pre-recorded demo video (2 minutes) on your phone:
 │ 4. Play pre-recorded video             │
 └────────────────────────────────────────┘
 ```
+
+---
+
+## Resetting the App / Logout
+
+To reset the app and show the login flow again (useful for demonstrating the OTP authentication), use the following command:
+
+### On Android Emulator (via Terminal)
+
+```bash
+# Clear all app data (logs out user and resets to welcome screen)
+adb shell pm clear com.prabhavai
+```
+
+**Full path if adb is not in PATH:**
+```bash
+/opt/homebrew/share/android-commandlinetools/platform-tools/adb shell pm clear com.prabhavai
+```
+
+### What This Does
+- Clears all stored user data
+- Removes authentication tokens
+- Resets onboarding progress
+- Returns app to the Welcome screen
+
+### When to Use
+- Before a demo to show fresh login flow
+- To reset between multiple demo runs
+- To demonstrate OTP verification to stakeholders
+
+**Note:** After clearing, the app will show the splash screen followed by the welcome screen. You can then demonstrate the complete login flow with phone number `9876543210` and OTP `123456`.
 
 ---
 
